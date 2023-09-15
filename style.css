@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    border: 2px solid black;
+    background-color: black;
+    width: 25rem;
+    height: 30rem;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.city_name_input_tag{
+    /* background-color: blue; */
+    position: fixed;
+    left: 20%;
+    top: 2%;
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.2rem;
+    width: 15rem;
+    color: black;
+    height: 2rem;
+    font-family: consolas;
+    font-size: 1rem;
+    box-decoration-break: none;
+}
+.display_city_name{
+    /* background-color: blue; */
+    color: white;
+    padding: 0.2rem 0.2rem;
+    width: auto;
+    height: auto;
+    position: fixed;
+    left: 10%;
+    top: 15%;
+    font-family: consolas;
+    font-size: 1.4rem;
+}
+.wheather_logo img{
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    left: 20%;
+    top: 42%;
+    border-radius: 1rem;
+}
+.temperature{
+    /* background-color: red; */
+    padding: 0.2rem 0.2rem;
+    width: auto;
+    height: 9rem;
+    position: fixed;
+    left: 41%;
+    top: 25%;
+    font-size: 9rem;
+    color: white;
+    font-family: consolas;
+
+}
+.celcius{
+    /* background-color: red; */
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 80%;
+    top: 35%;
+    padding: 0.1rem 0.1rem;
+    font-size: 1.5rem;
+    font-family: consolas;
+    color: white;
+}
+.pressure{
+    /* background-color: red; */
+    padding: 0.3rem 0.3rem;
+    width: 10rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: consolas;
+    color: white;
+
+}
+.humidity{
+    padding: 0.3rem 0.3rem;
+    width: 10rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 30%;
+    top: 67%;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: consolas;
+    color: white;
+}
+.wind_speed{
+    /* background-color: red; */
+    padding: 0.3rem 0.3rem;
+    width: 10rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 30%;
+    top: 74%;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: consolas;
+    color: white;
+}
+.search_button{
+    background-color: rgb(7, 123, 129);
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 2rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%,-50%);
+    font-size: 1rem;
+    font-family: consolas;
+}
+.search_button:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
