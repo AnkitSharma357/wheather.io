@@ -11,11 +11,11 @@ function render_data(data){
 
     var temp = document.querySelector('.temperature').innerHTML = parseInt(data.main.temp-273);
 
-    let humidity = document.querySelector('.humidity').innerHTML = 'Humidity: ' +data.main.humidity+'%';
+    let humidity = document.querySelector('.humidity').innerHTML = 'Humidity: ' +data.main.humidity+' %';
 
-    let pressure= document.querySelector('.pressure').innerHTML = 'Pressure: ' +data.main.pressure+'hPa';
+    let pressure= document.querySelector('.pressure').innerHTML = 'Pressure: ' +data.main.pressure+' hPa';
 
-    let wind_speed= document.querySelector('.wind_speed').innerHTML = 'Wind: ' +parseInt(data.wind.speed)+'m/s';
+    let wind_speed= document.querySelector('.wind_speed').innerHTML = 'Wind: ' +parseInt(data.wind.speed)+' m/s';
     
 }
 
